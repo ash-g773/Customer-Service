@@ -1,0 +1,12 @@
+package com.bernice.service;
+
+import org.springframework.stereotype.Service;
+
+import com.bernice.entity.Share;
+
+@Service
+public interface ShareService {
+	
+	public Share searchShareById(int id);
+
+}
